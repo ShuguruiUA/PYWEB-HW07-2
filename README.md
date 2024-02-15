@@ -1,4 +1,4 @@
-# CLI bot for PostgreSQL DB manipulating
+# CLI bot for PostgreSQL DB manipulating (CRUD)
 
 ## Steps
 1. Run your docker or connect to yours PostgreSQL and create a new DB - DEV
