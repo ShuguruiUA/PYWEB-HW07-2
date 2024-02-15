@@ -5,6 +5,7 @@ from faker import Faker
 from sqlalchemy import select
 from sqlalchemy.exc import SQLAlchemyError
 
+
 from conf.db import session
 from conf.models2 import Teacher, Student, Group, Subject, Grade
 
