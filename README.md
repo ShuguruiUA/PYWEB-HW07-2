@@ -1,14 +1,14 @@
 # CLI bot for PostgreSQL DB manipulating (CRUD)
 
-## Steps
+## Prerequisites
 1. Run your docker or connect to yours PostgreSQL and create a new DB - DEV
 2. Init alembic and make changes in its configuration (dev.py)
 3. Run seed.py to generate random data in the DB tables
 4. Run from console CRUD_CLI.py using arguments to manipulate data in DB 
 5. tables groups and students has relationship if you delete a group students are gone...
-## Example
+## Usage
 ```commandline
-   $ python3 CRUD_CLI.py -h or --help
+   $ python3 CRUD_CLI.py option
 ```
 options:
 ```commandline
